@@ -42,7 +42,7 @@ class RtcManager: NSObject {
     // MARK: - Constants
     
     private enum Constants {
-        static let appId = "aab8b8f5a8cd4469a63042fcfafe7063"
+        static let appId = ""
         static let logTag = "RtcManager"
     }
     

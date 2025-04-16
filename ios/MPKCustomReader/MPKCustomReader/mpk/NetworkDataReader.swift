@@ -1,7 +1,7 @@
 import Foundation
 import AgoraRtcKit
 
-let key = "keykeykeyaaaasdgt"
+let key = "key_key_key_key"
 
 class NetworkDataReader: NSObject, URLSessionDataDelegate {
     // MARK: - Properties

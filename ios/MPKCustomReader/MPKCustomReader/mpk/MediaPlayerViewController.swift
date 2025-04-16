@@ -348,7 +348,9 @@ class MediaPlayerViewController: UIViewController {
     }
     
     private func playNetworkFile(with mediaPlayer: AgoraRtcMediaPlayerProtocol) {
-        let url = "https://download.agora.io/demo/test/oceans_encrypted.mp4"
+//        let url = "https://download.agora.io/demo/test/oceans_encrypted.mp4"
+//        let url = "https://github.com/mediaios/mi-file-crypto-tools/raw/refs/heads/main/test/out_mp4_files/oceans.mp4.encrypted"
+        let url = "https://github.com/mediaios/mi-file-crypto-tools/raw/refs/heads/main/test/out_mp4_files/trailer.mp4.encrypted"
         
         Task {
             let success = await setupMediaPlayer(mediaPlayer, 
