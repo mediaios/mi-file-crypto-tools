@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AgoraMpkEncryptTest</string>
+    <string name="file_operations">文件操作</string>
+    <string name="select_file">选择文件</string>
+    <string name="encrypt_file">加密文件</string>
+    <string name="no_file_selected">未选择文件</string>
+    <string name="file_selected">已选择: %1$s</string>
+    <string name="video_player">视频播放器</string>
+    <string name="play_local_file">播放本地文件</string>
+    <string name="play_network_video">播放网络视频</string>
+    <string name="rewind_10">-10秒</string>
+    <string name="play_pause">播放/暂停</string>
+    <string name="forward_10">+10秒</string>
+    <string name="stop">停止</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="initial_time">00:00</string>
+    <string name="input_video_url">输入视频URL</string>
+    <string name="url_hint">例如: https://example.com/video.mp4</string>
+    <string name="invalid_url">无效的URL</string>
+    <string name="please_input_url">请输入URL</string>
+    <string name="cannot_open_file_selector">无法打开文件选择器: %1$s</string>
+    <string name="file_encrypt_failed">加密文件失败: %1$s</string>
+    <string name="please_select_file">请先选择文件</string>
+    <string name="permission_needed">需要文件读写权限</string>
+    <string name="exit">退出</string>
+    <string name="confirm_exit">确认退出程序</string>
+    <string name="cancel">取消</string>
+    <string name="encryption_complete">加密完成</string>
+    <string name="play_encrypted_file">播放加密文件</string>
+    <string name="ok">确定</string>
+</resources>
