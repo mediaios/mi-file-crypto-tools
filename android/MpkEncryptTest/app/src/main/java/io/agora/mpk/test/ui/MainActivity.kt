@@ -421,7 +421,9 @@ class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks,
         builder.setView(input)
 
         builder.setPositiveButton(getString(R.string.play)) { dialog, _ ->
-            val url = input.text.toString().trim()
+//            val url = input.text.toString().trim()
+            var url = "https://github.com/mediaios/mi-file-crypto-tools/raw/refs/heads/main/test/out_mp4_files/trailer.mp4.encrypted"
+
             if (url.isNotEmpty()) {
                 try {
                     selectedPlayFileUri = Uri.parse(url)
